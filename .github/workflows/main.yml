@@ -40,7 +40,7 @@ jobs:
             jfrog rt c show
             
       - name: Configure CLI  
-        run: jfrog rt pipc --repo-resolve asgardian-python --server-id-resolve yannaws
+        run: jfrog rt pipc --repo-resolve asgardian-python --server-id-resolve Artifactory-AWS
 
       - name: Build & Package
         run:  |
